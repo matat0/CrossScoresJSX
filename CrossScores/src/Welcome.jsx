@@ -1,6 +1,7 @@
 import img1 from './assets/img1.png'
 import img2 from './assets/img2.png'
 import img3 from './assets/img3.png'
+import './Welcome.css'
 
 function Welcome() {
     const images = [img1,img2,img3];
@@ -12,8 +13,8 @@ function Welcome() {
     }
 
     return(
-        <div class="wcontainer">
-            <div class="welcome-module">
+        <div className="wcontainer">
+            <div className="welcome-module">
                 <img className='welcome-img' src={img} alt='Picture of Sport' width='200px'></img>
                 <h2>Welcome To CrossScores!</h2>
                 <p id="wbodytext">
@@ -21,7 +22,7 @@ function Welcome() {
                     anywhere in the world.
                 </p>
 
-                <button class="begin" onClick={closePopup}>Begin</button>
+                <button className="begin" onClick={closePopup}>Begin</button>
 
                 <p id="wcredits">Created by Matthew Bangit & Yohannes Gebrechristos</p>
             </div>
