@@ -11,6 +11,7 @@ function Welcome() {
     function closePopup() {
         document.querySelector(".wcontainer").style.display = "none";
     }
+    
 
     return(
         <div className="wcontainer">
